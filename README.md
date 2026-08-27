@@ -1,16 +1,25 @@
-# Xiyao Chen — Research in Motion
+# Xiyao Chen — academic portfolio
 
-Source for [ci-yo.github.io](https://ci-yo.github.io/), an interactive academic
-portfolio in structural bioinformatics, biomolecular machine learning and
-reproducible biological data science.
+Static source for **https://ci-yo.github.io/**.
 
-## Explore
+This refresh intentionally uses plain HTML/CSS instead of a generated `_next/` export so the portfolio remains easy to maintain.
 
-- [Research Trail](https://ci-yo.github.io/trail/) — the projects as a route, not a list
-- [Projects](https://ci-yo.github.io/projects/) — questions, approaches and technical records
-- [CV](https://ci-yo.github.io/cv/) — concise public academic profile
-- [Live Shiny app](https://xi-yo.shinyapps.io/TME_2255737/) — tumour microenvironment explorer
+## Structure
 
-The site is statically generated, so GitHub Pages can serve it directly from
-the `main` branch. Its language fingerprint refreshes client-side from Xiyao's
-public GitHub repositories.
+- `index.html` — landing page, selected research, research fingerprint, research trail preview
+- `projects/index.html` — research experiences first; coursework and tools in a separate section
+- `trail/index.html` — research trajectory without duplicating the CV
+- `cv/index.html` — concise HTML CV
+- `assets/XiyaoChen_CV.pdf` — current public two-page CV
+- `assets/style.css` — shared design system
+- `assets/favicon.svg` — site icon
+
+## Update rule
+
+Keep the hierarchy explicit:
+
+1. research evidence;
+2. research story / trajectory;
+3. selected coursework and software builds.
+
+The 2026 cross-technology m6A research project and `BIO215_P3_m6APrediction` are deliberately presented as separate projects.

@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://ci-yo.github.io/sitemap.xml
