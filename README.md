@@ -9,7 +9,7 @@ This refresh intentionally uses plain HTML/CSS instead of a generated `_next/` e
 - `index.html` — landing page, selected research, research fingerprint, research trail preview
 - `projects/index.html` — research experiences first; coursework and tools in a separate section
 - `trail/index.html` — research trajectory without duplicating the CV
-- `cv/index.html` — concise HTML CV
+- `cv/index.html` — compatibility redirect from the former HTML CV URL to the PDF
 - `assets/XiyaoChen_CV.pdf` — current public two-page CV
 - `assets/style.css` — shared design system
 - `assets/favicon.svg` — site icon
