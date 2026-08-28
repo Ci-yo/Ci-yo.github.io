@@ -6,7 +6,7 @@ This refresh intentionally uses plain HTML/CSS instead of a generated `_next/` e
 
 ## Structure
 
-- `index.html` — concise landing page with three selected projects, current focus, and research trail
+- `index.html` — concise landing page with a three-domain research lens, selected projects, current focus, and research trail
 - `projects/index.html` — research experiences first; coursework and tools in a separate section
 - `trail/index.html` — research trajectory without duplicating the CV
 - `cv/index.html` — compatibility redirect from the former HTML CV URL to the PDF
